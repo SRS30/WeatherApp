@@ -6,3 +6,5 @@ This project uses the OpenWeatherMap API to fetch weather data. To make it work,
 
 // Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
 const apiKey = 'your_actual_api_key_here';
+
+![Screenshot](ss.png)
