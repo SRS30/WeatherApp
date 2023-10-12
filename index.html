@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        #locationInput {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+        }
+
+        #getWeather {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #getWeather:hover {
+            background-color: #217dbb;
+        }
+
+        #weatherInfo {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <input type="text" id="locationInput" placeholder="Enter a location">
+    <button id="getWeather">Get Weather</button>
+    <div id="weatherInfo"></div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
